@@ -3,11 +3,10 @@ import headerStyles from '../styles/Header.module.css'
 const Header = () => {
     return (
         <div>
-            <h1 className={ headStyles.title }>
+            <h1 className={ headerStyles.title }>
                 <span>WebDev</span> News
             </h1>
-            <p className={ headStyles.description }>Keeps you to date with Web Development news
-            </p>
+            <p className={ headerStyles.description }>Keeps you to date with Web Development News</p>
         </div>
     )
 }
